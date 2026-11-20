@@ -1,0 +1,29 @@
+# Model weights and local caches (too large for GitHub)
+artifacts/
+cache/
+distilbert_sst2/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Django
+db.sqlite3
+*.log
+
+# Node / Next.js
+node_modules/
+POJ/frontend/.next/
+POJ/frontend/out/
+.env
+.env.*
+!.env.example
+
+# Notebooks / OS / IDE
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
